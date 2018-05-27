@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	 background: linear-gradient(to right, rgba(69,178,236), rgba(25,118,210));
+}
+
+.container {
+	background-color: #FFFFFF;
+}
+.img-card {
+	height: auto;
+	width: 300px;
+}
+
+.card-img-top {
+	
+}
+.img-card img {
+	object-fit: cover;
+	height: 200px
+}
+
+
+/* @media tags */
+@media screen and (min-width: 992px) /*Desktop*/ {
+	.container {
+		margin-top: 50px; 
+	}
+	.card {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.card {
+		width: 100%;
+	}
+}
