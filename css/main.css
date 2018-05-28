@@ -5,7 +5,7 @@ body {
 	 background: linear-gradient(to right, rgba(69,178,236), rgba(25,118,210));
 }
 
-.container {
+.content {
 	background-color: #FFFFFF;
 }
 .img-card {
@@ -24,7 +24,7 @@ body {
 
 /* @media tags */
 @media screen and (min-width: 992px) /*Desktop*/ {
-	.container {
+	.content {
 		margin-top: 50px; 
 	}
 	.card {
@@ -37,3 +37,5 @@ body {
 		width: 100%;
 	}
 }
+
+@media screen and (max-width:
