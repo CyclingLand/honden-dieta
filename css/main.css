@@ -29,6 +29,28 @@ body {
 .img-container {
 	border-radius: 25px;
 }
+
+.custom-footer {
+	width: 100%;
+	background-color: white;
+	height: 100px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.custom-footer-bottom {
+	background-color: #4285f4;
+	height: 60px;
+	bottom: 0px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.custom-footer-bottom a {
+	color: white;
+}
+
 /* @media tags */
 @media screen and (min-width: 992px) /*Desktop*/ {
 	.content {
