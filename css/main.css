@@ -13,8 +13,8 @@ body {
 	width: 300px;
 }
 
-.card-img-top {
-	
+.card {
+	margin-bottom: 20px;
 }
 .img-card img {
 	object-fit: cover;
