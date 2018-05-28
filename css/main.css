@@ -21,7 +21,14 @@ body {
 	height: 200px
 }
 
-
+.inleiding img {
+	object-fit: cover;
+	height: 200px;
+	width: 60%;
+}
+.img-container {
+	border-radius: 25px;
+}
 /* @media tags */
 @media screen and (min-width: 992px) /*Desktop*/ {
 	.content {
@@ -30,12 +37,18 @@ body {
 	.card {
 		width: 100%;
 	}
+	.inleiding {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 991px) {
 	.card {
-		width: 100%;
+		width: 100% !important;
 	}
 }
 
-@media screen and (max-width:
+@media screen and (max-width: 600px) {
+	
+}
+
