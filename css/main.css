@@ -32,7 +32,9 @@ body {
 /* @media tags */
 @media screen and (min-width: 992px) /*Desktop*/ {
 	.content {
-		margin-top: 50px; 
+		margin-top: 50px !important;
+		border-radius: 5px;
+		margin-bottom: 30px;
 	}
 	.card {
 		width: 100%;
@@ -42,13 +44,22 @@ body {
 	}
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 600px) /*Tablet en Hoger*/ {
+	.content {
+		
+		margin-top: 40px;
+		border-radius: 5px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) /*Tablet en Lager*/ {
 	.card {
 		width: 100% !important;
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) /*Smartphone*/ {
 	
 }
 
